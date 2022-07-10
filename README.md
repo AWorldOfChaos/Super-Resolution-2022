@@ -115,6 +115,10 @@ To-Do:
 2. Implement Deep Blind Video Super-Resolution
 3. Explore other architectures for modeling degradation and implementing suitable image restoration
 
+------
+
+# Resources
+
 ## **Git and Github**
 
 We'll start by learning version control as it's really important to maintain and organize projects.
@@ -284,14 +288,3 @@ Brushing up on probability, and understanding common probability distributions w
         
         [Vim 101: A Beginner's Guide to Vim - Linux.com](https://www.linux.com/training-tutorials/vim-101-beginners-guide-vim/)
 
-## Major Assignment 1
-
-Join Assignment 1 on Github classroom. All details are available there
-
-[Build software better, together](https://classroom.github.com/a/kby66-lI)
-
-## Final Project Code
-
-The final submissions which are successful will be listed here.
-
-Passing Criteria:- Completing the naive VSR algorithm and pipeline
