@@ -116,3 +116,9 @@ To-Do:
 3. Explore other architectures for modeling degradation and implementing suitable image restoration
 
 ------
+
+# Resources
+Check the Resources folder
+
+# Results
+Check the individual mentees folders
