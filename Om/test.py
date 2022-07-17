@@ -98,7 +98,7 @@ if __name__ == '__main__':
         bi_vid.write(img)
     bi_vid.release()
 
-    # avg_bi_psnr /= (frNo+1)
+    avg_bi_psnr /= (frNo+1)
     avg_psnr /= (frNo+1)
     print('The psnr of SR with original is:', avg_psnr)
     print('The psnr of bicubic with original is:', avg_bi_psnr)
