@@ -25,6 +25,10 @@ Create a convolutional neural network model with appropriate parameters and hype
 
 Test the model using eval.py for automatic evaluation on testdataset and test.py for manual side-by-side comparison.
 
+## Step 5 - Extend the model to VSR
+
+Extend the model to naive VSR by using model frame-by-frame on a video
+
 ## Conclusion
 
 Through this project I have implemented my srcnn network based on the "9-3-5 SRCNN" architecture.
