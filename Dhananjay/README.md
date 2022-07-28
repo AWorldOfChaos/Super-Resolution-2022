@@ -24,7 +24,5 @@ I calculated the PSNR (Peak Signal to Noise Ratio, metric used to evaluate how c
 Running "viewer.py" also opens the three versions of image (original low res version, upscaled bicubic version, and super resolved version) side-by-side in matplotlib, so that the images can be compared manually.
 
 ## Conclusion
-Finish up the project by updating the requirements.txt and making your own observations and inferences in a README file.
-Document the results and approaches used properly
-
-Deadline:- 10th June 2022.
+Drive link for output files: https://drive.google.com/drive/folders/1l8Z9KW4FaVbX0O_ltOSXmaPG0B0JQhfS?usp=sharing
+At the end of this project I have successfully implemented an SRCNN model discussed in a Research Paper, and tweaking it by changing the hyperparameters to make it even better.
