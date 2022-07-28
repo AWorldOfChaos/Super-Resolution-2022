@@ -14,7 +14,7 @@ Three convolutional levels have been created with a ReLu activation layer, detai
 
 **TESTING AND CONCLUSION** 
 
-For testing the model on the input images and videos provided in the folder "image_sr" and "VideoSR", I have used the commands as specified in the "run.txt" file. PSNR vaues for all the image files and video files have been added in their respective folders under a different file.
+For testing the model on the input images and videos provided in the folder "image_sr" and "VideoSR", I have used the commands as specified in the "run.txt" file. PSNR values for all the image files and video files have been added in their respective folders under file "psnr_values.txt" for VideoSR and under "psnr.md" for image_sr.
 
 My final output videos are available in the "VideoSR" and "image_sr" folders. Various files of "Image_bicubic_x2", "Image_srcnn_x2", "Video_bicubic_x2" and "Video_vsr_x2" are available. All these files accurately solve the problem statement. I implemented the SRCNN model as illustrated in the research paper. 
 
