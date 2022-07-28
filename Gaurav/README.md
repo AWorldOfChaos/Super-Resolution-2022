@@ -1,1 +1,23 @@
 # Gaurav
+
+# Video-Super-Resolution-Project
+This is my Video Super Resolution Project, under the Seasons of Code Program organized by the Web and Coding Club, IIT Bombay
+
+# Materials Studied
+This is a pretty complicated project, and it is my first introduction to the concept of Machine Learning, and Artificial Intelligence, in general.  
+In the very first week, I was tasked with gaining a decent familiarity with Python, the language of choice for the project, and indeed, as I would come to learn, for most ML applications. I implemented PCA on Python, from scratch (without using any libraries except numpy). 
+Once that was done, the real learning began with the Machine Learning Course on Coursera by Stanford Online (with the instructor being none other than the great Andrew Ng). I have nearly completed that course as well, though for the purposes of the SoC, only the first 4 weeks were required. The first few programming assignments have been added to this repo, the ones after those have not as they're simply not relevant to the project.
+The third week was all about Deep Learning. Again, with no background in Deep Learning, the learning curve seemed pretty steep to me, and the fact that the learning material consisted of 5-hour YT videos did not help. Nevertheless, the content was absolutely amazing, if a bit time-consuming to cover, and I was really thrilled to finally be up to speed on what Deep Learning is and what it consists of. I learnt both PyTorch and TensorFlow, both through YT, though more emphasis was put upon PyTorch as that was the ML framework of choice for the project.
+The next week was all about CNNs and getting familiar with using them. As the weekly assignment, the standard Cats vs Dogs problem was provided. This was a great way to learn about CNNs and about how they're applied to Image Processing tasks, which standard Neural Nets are unable to handle very well. CNNs are integral to the project, and to the task of Super Resolution.
+The next few weeks were all about creating an Image Super Resolution Algorithm, extending it to perform SR on videos, which are simply a set of images.
+Then, the final code implementation for the SoC began, with two papers. ESPCN and 3DSRNet. These are cutting-edge developments in the problem of SR, and the task was to implement one or both of them to perform VSR, which was the original topic of the SoC. I implemented ESPCN, though I read both papers. The code for the same is available in this repo. Do note that there are some differences from the paper, for ease of implementation. In the paper, patch sizes of 17 x 17 are used, however, in the code, I have used frame patches of sizes 8 x 8.
+An interesting thing to note is that even without GPU support, and with training the model for several epochs, the training loop ran pretty damn fast. This was unexpected as when I implemented the Image SR algorithm, the training took quite a while to be completed. Needless to say, I was extremely happy with this result.
+Overall, this SoC has been pretty damn great for me. It's the project I was most interested in all summer, and it kept me hooked throughout. It's the first experience I've had in the world of AI and ML, and what an experience it was! Shoutout to my mentors Kartik Gokhale and Hastyn Doshi for this amazing project and for being great mentors. Thank you WnCC for the opportunity. I am extremely grateful
+
+# Files
+The ML_i files are the codes I worked on for the completion of the ML Course on Coursera.
+The Colour_Image_Super_Resolution file is my own implementation of the SR algorithm, using the famous 9-1-5 architecture. It's advanced(for me) but rudimentary code, as is obvious from the structure of the entire algorithm (no functions, bad structure, repeating code, etc.)
+The ESPCN_Rough_Implementation file is much more refined code. It uses short functions, which is the ideal way to code, as I learnt along the way. The reason it's titled 'Rough" is because it's not as good (refined) as I wanted it to be. The algorithm works fine, but the final portions are not encapsulated within functions (not enough time, as the deadline was nearing) which is how I would like it to be. I intend to improve it after the project is over, which is why it's only like the first draft of a book that needs to be edited further.
+Preparatory Code is basically a few of the assignments (not all) and other things I dabbled in as part of the learning for the project.
+For the Image SR part, the dataset used was the T91 dataset, pretty famous for its applicability to SR problems.
+For the Video SR code, the Ultra Video Group dataset was used.
