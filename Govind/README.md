@@ -1,6 +1,5 @@
 # Video Super Resolution
 ## Govind Kumar
-#
 
 This is the my implementation of Video Super Resolution for Seasons Of Code 2022.
 
