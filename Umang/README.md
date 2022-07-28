@@ -19,4 +19,4 @@ For testing the model on the input images and videos provided in the folder "ima
 My final output videos are available in the "VideoSR" and "image_sr" folders. Various files of "Image_bicubic_x2", "Image_srcnn_x2", "Video_bicubic_x2" and "Video_vsr_x2" are available. All these files accurately solve the problem statement. I implemented the SRCNN model as illustrated in the research paper. 
 
 
-Note: best.pth is the best epoch with psnr value 36.64. Epoch number 367.
+**Note:** best.pth is the best epoch with psnr value 36.64. Epoch number 367.
