@@ -31,10 +31,11 @@ Extend the model to naive VSR by using model frame-by-frame on a video.
 
 ## Conclusion
 
-- Through this project I have implemented my srcnn network based on the "9-3-5 SRCNN" architecture.
+- Through this project I have implemented my srcnn network based on the "9-3-5 SRCNN" architecture based on [this][SRCNN] paper.
 - The model weights file has been saved in outputs folder.
 - The instructions to run the code could be found in run.txt. 
 - Some resuts of the model can be found under VSR_results and ImageSR_results
 
 [T91 dataset]: https://drive.google.com/drive/folders/1ACLEQqxj4OEyw5HnWV8M-YyQ1OYctw20?usp=sharing
 [Set5 dataset]: https://drive.google.com/drive/folders/1xhO83Ru5vp59xsveTai3oQOjVp1pxb3c?usp=sharing
+[SRCNN]: https://arxiv.org/pdf/1501.00092v3.pdf
