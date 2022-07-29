@@ -14,7 +14,6 @@ Existing video super-resolution (SR) algorithms usually assume that the blur ker
 
 ## Mentees
 
-- Sahil Gawade
 - Umang Agarwal
 - Dhananjay Raman
 - Govind Kumar
