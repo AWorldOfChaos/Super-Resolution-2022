@@ -1,7 +1,7 @@
 # This script will be used to manually test model on given image files
 # Use appropriate command line arguments and conditions
-# python test.py -w "outputs/x4/epoch48.pth" -i "testdata/SampleData/LowRes2.jpg" -s 4 -o testdata/SampleData
-# python test.py -w "outputs/x4/epoch48.pth" -i "testdata/SampleData/LowRes2.jpg" -s 4
+# python test.py -w "outputs/x4/epoch50.pth" -i "testdata/SampleData/LowRes2.jpg" -s 4 -o testdata/SampleData/sr.png
+# python test.py -w "outputs/x4/epoch50.pth" -i "testdata/SampleData/LowRes2.jpg" -s 4
 
 import argparse
 from model import Net
